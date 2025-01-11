@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:src="@drawable/element_layout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To O'FaCan!"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/element_layout_login"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Enter Your Full Name"
+            android:textColorHint="@color/blue"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/blue"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login_lg_layout"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#9EDDFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not have an account?"
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/tv_btn_register_lg_layout"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textColor="@color/blue"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

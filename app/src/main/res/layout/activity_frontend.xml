@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:src="@drawable/element_layout"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/element_layout_frontend"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Food With O'FaCan"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O'FaCan adalah aplikasi pemesanan"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="online untuk makanan di kantin."
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/btn_login_frontend"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#9EDDFF"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:id="@+id/btn_register_frontend"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#9EDDFF"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>

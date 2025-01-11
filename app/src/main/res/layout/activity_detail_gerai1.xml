@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".DetailGerai1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_dtl_gerai_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gerai 1"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_1_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_1_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_risol_mayo" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_1_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_1_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_1_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_1_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_1_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_1_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_1_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_1_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_2_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/card_1_gerai_1_dtl">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_2_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_sushi" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_2_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_2_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_2_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_2_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_2_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_2_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_2_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_2_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_3_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card_1_gerai_1_dtl">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_3_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_aoka" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_3_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_3_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_3_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_3_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_3_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_3_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_3_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_3_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_4_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card_2_gerai_1_dtl"
+            android:layout_toRightOf="@+id/card_3_gerai_1_dtl">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_4_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_aqua" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_4_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_4_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_4_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_4_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_4_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_4_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_4_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_4_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_5_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card_4_gerai_1_dtl">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_5_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_cireng" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_5_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_5_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_5_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_5_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_5_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_5_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_5_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_5_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_6_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card_4_gerai_1_dtl"
+            android:layout_toRightOf="@+id/card_5_gerai_1_dtl">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_6_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_martabak_manis" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_6_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_6_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_6_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_6_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_6_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_6_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_6_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_6_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_7_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@+id/card_5_gerai_1_dtl">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_7_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_sari_gandum" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_7_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_7_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_7_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_7_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_7_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_7_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_7_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_7_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_8_gerai_1_dtl"
+            app:cardBackgroundColor="@color/white"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card_6_gerai_1_dtl"
+            android:layout_toRightOf="@+id/card_7_gerai_1_dtl">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_card_8_gerai_1_dtl"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/detail_gerai_1_sosis" />
+
+                <Button
+                    android:id="@+id/btn_inc_card_8_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:layout_below="@+id/iv_card_8_gerai_1_dtl"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_dislpay_card_8_gerai_1_dtl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="0"
+                    android:textStyle="bold"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="23dp"
+                    android:layout_toRightOf="@id/btn_inc_card_8_gerai_1_dtl"
+                    android:layout_below="@+id/iv_card_8_gerai_1_dtl"
+                    android:layout_marginTop="12dp"/>
+
+                <Button
+                    android:id="@+id/btn_dec_card_8_gerai_1_dtl"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_below="@+id/btn_inc_card_8_gerai_1_dtl"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="-43dp"
+                    android:layout_toRightOf="@+id/tv_dislpay_card_8_gerai_1_dtl"
+                    android:text="-"
+                    android:textColor="@color/blue"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_dtl_gerai_1_pesan"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_marginBottom="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesan"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/card_8_gerai_1_dtl"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

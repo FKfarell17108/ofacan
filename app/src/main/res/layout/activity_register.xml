@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:src="@drawable/element_layout"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To O'FaCan!"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's create an account now"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Enter Your Full Name"
+            android:textColorHint="@color/blue"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Enter You Class"
+            android:textColorHint="@color/blue"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Create Password"
+            android:textColorHint="@color/blue"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/background_edit_text"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/blue"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_register_rg_layout"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#9EDDFF"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textSize="12dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/tv_btn_login_rg_layout"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textColor="@color/blue"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
